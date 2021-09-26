@@ -1,0 +1,9 @@
+.blog{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: "hd hd hd hd hd"
+    "sd sd main main main"
+    "ft ft ft ft ft";
+    border: 2px solid blue;
+}
