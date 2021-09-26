@@ -7,3 +7,10 @@
     "ft ft ft ft ft";
     border: 2px solid blue;
 }
+.header{
+    width:300px;
+    height:200px;
+    font: 20px Arial, sans-serif;
+    color:crimson;
+    background-color: lightskyblue;
+}
