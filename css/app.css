@@ -13,4 +13,9 @@
     font: 20px Arial, sans-serif;
     color:crimson;
     background-color: lightskyblue;
+    align-items: center;
+}
+.sidebar{
+    font: 10px Arial, sans-serif;
+    color:rgb(231, 131, 17)
 }
