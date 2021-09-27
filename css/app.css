@@ -1,4 +1,4 @@
-.blog{
+.Blog{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -6,7 +6,7 @@
     "sd sd main main main main main main"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
-    background-color: lightpink;
+    background-color:lightsteelblue;
 
 }
 .header{
