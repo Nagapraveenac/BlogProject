@@ -24,3 +24,8 @@
     color:rgb(231, 131, 17);
     align-items: flex-start;
 }
+.footer{
+    font:15px Times, sans-serif;
+    color:black;
+    align-items: center;
+}
