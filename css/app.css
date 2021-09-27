@@ -30,6 +30,12 @@
 .footer{
     font:15px Times, sans-serif;
     color:black;
-    align-items: center ;
+    align-items: center;
     grid-area:ft;
+}
+#one{ 
+    padding-bottom: 10px;
+}
+#two{
+    padding-top: 50px;;
 }
