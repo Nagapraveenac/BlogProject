@@ -13,8 +13,8 @@
     font: 30px Arial, sans-serif;
     color:crimson;
     background-color: lightskyblue;
-    align-content: center;
     grid-area:hd;
+    text-align: center;
     
 }
 .sidebar{
