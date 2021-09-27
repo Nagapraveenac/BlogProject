@@ -1,31 +1,35 @@
 .blog{
-    display:grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-areas: "hd hd hd hd hd"
-    "sd sd main main main"
-    "ft ft ft ft ft";
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
+    background-color: lightpink;
+
 }
 .header{
-    width:300px;
-    height:200px;
-    font: 20px Arial, sans-serif;
+    font: 30px Arial, sans-serif;
     color:crimson;
     background-color: lightskyblue;
+    align-content: center;
+    grid-area:hd;
     
 }
 .sidebar{
     font: 20px Arial, sans-serif;
-    color:rgb(231, 131, 17)
+    color:rgb(231, 131, 17);
+    grid-area:sd;
 }
 .content{
     font: 20px Arial, sans-serif;
     color:rgb(231, 131, 17);
-    align-items: flex-start;
+    grid-area:main;
 }
 .footer{
     font:15px Times, sans-serif;
     color:black;
-    align-items: center;
+    align-items: center ;
+    grid-area:ft;
 }
