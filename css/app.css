@@ -6,13 +6,12 @@
     "sd sd main main main main main main"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
-    background-color:lightsteelblue;
+    background-color:white;
 
 }
 .header{
     font: 30px Arial, sans-serif;
     color:crimson;
-    background-color: lightskyblue;
     grid-area:hd;
     text-align: center;
     
