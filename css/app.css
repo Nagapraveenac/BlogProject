@@ -1,40 +1,44 @@
 .blog{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
+    /*grid-template-rows: 100px,200px,100px;*/
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
     "ft ft ft ft ft ft ft ft";
-    border: 2px solid blue;
-    background-color:white;
-
+    background-color:white;         
+}
+.box{
+    border:solid yellow;
+    
 }
 .header{
     font: 30px Arial, sans-serif;
     color:crimson;
     grid-area:hd;
     text-align: center;
-    
+    background-color: orchid;
 }
 .sidebar{
     font: 12px, sans-serif;
     color:olivedrab;
     grid-area:sd;
+    background-color: palegreen;
+    text-align: center;
+    justify-items: center;
+       
 }
 .content{
     font: 20px Arial, sans-serif;
     color:rgb(231, 131, 17);
     grid-area:main;
+    background-color: purple;
+    
 }
 .footer{
     font:15px Times, sans-serif;
     color:black;
-    text-align: center;
     grid-area:ft;
-}
-#one{ 
-    padding-bottom: 75px;
-}
-#two{
-    padding-top: 75px;;
+    padding-top: 20px;
+    background-color: seagreen;
 }
