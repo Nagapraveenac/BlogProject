@@ -1,7 +1,12 @@
+@import "header.css";
+@import "sidebar.css";
+@import "content.css";
+@import "footer.css";
+
 .blog{
     display:grid;
     grid-template-columns: repeat(8, 1fr);
-    /*grid-template-rows: 100px,200px,100px;*/
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
@@ -9,36 +14,22 @@
     background-color:white;         
 }
 .box{
+    display:flex;
     border:solid yellow;
-    
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0.1em;
+    padding:5px;
+    border-radius: 25px;       
 }
-.header{
-    font: 30px Arial, sans-serif;
-    color:crimson;
-    grid-area:hd;
-    text-align: center;
-    background-color: orchid;
+/*.btn{
+    border:none;
+    background-color: inherit;
+    padding:14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
 }
-.sidebar{
-    font: 12px, sans-serif;
-    color:olivedrab;
-    grid-area:sd;
-    background-color: palegreen;
-    text-align: center;
-    justify-items: center;
-       
-}
-.content{
-    font: 20px Arial, sans-serif;
-    color:rgb(231, 131, 17);
-    grid-area:main;
-    background-color: purple;
-    
-}
-.footer{
-    font:15px Times, sans-serif;
-    color:black;
-    grid-area:ft;
-    padding-top: 20px;
-    background-color: seagreen;
-}
+.btn:hover{
+    background-color: lightgray;
+}*/

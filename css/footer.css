@@ -1,0 +1,8 @@
+.footer{
+    font:15px Times, sans-serif;
+    color:black;
+    grid-area:ft;
+    padding-top: 20px;
+    background-color: seagreen;
+    text-align: center;
+}
