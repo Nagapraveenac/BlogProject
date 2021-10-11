@@ -1,8 +1,27 @@
 .sidebar{
-    font-size: 16px;
+    font-size: 20px;
     color:white;
     grid-area:sd;
-    background-color: white;
+    background-color:white;    
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: slategrey;
+    border-radius: 5px;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    text-decoration:none;
     text-align:center;
-    align-items: row;         
+    padding: 5px;
+
+}
+    
+li a:hover{
+    background-color: snow;
 }
