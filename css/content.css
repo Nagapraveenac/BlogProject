@@ -11,11 +11,10 @@ h2{
     margin:0;
 }
 
-#cards{
+.cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100%;
-    
+    grid-template-rows: 100%;    
     grid-gap: 5px;
     align-content: center;
     padding:5px;
