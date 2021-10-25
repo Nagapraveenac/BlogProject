@@ -1,27 +1,25 @@
 .sidebar{
     font-size: 20px;
-    color:white;
-    grid-area:sd;
-    background-color:white;    
+    grid-area:sd;       
 }
-ul{
+.sidebar ul{
     list-style-type:none;
     margin:0;
     padding:0;
     background-color: slategrey;
     border-radius: 5px;
 }
-li{
+.sidebar li{
     float:left;
 }
-li a{
+.sidebar li a{
     display:block;
     text-decoration:none;
     text-align:center;
     padding: 5px;
-
+    color:whitesmoke;
 }
     
-li a:hover{
-    background-color: snow;
+.sidebar li a:hover{
+    background-color:darkslategrey;
 }
