@@ -1,0 +1,41 @@
+@import "hdr.css";
+@import "sdr.css";
+@import "cnt.css";
+@import "ftr.css";
+
+.blogpage{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows:10% 5% 80% 5%;
+    grid-template-areas:
+    "hd hd hd"
+    "sd sd sd"
+    "main main main"
+    "ft ft ft";
+    background-color:white;
+    width:100%;
+    height:100%;
+}
+.part{
+    display:flex;
+    flex-wrap: wrap;
+    border:white;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin:3px;
+}
+@media only screen and (max-width:600px){
+    .blogpage{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows:15% 5% 75% 5%;
+        grid-template-areas:
+        "hd"
+        "sd"
+        "main"
+        "ft";
+        background-color: white;
+        width:100%;
+    }
+    
+}
