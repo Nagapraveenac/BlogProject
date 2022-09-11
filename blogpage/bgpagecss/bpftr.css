@@ -1,0 +1,19 @@
+.bpfooter{
+    grid-area:ft;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font:40px Times, sans-serif;
+    color:black;   
+    padding: 5px;
+    background-color:white;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-facebook{
+    text-decoration: none;    
+}
+.fa-twitter{
+    text-decoration: none;
+}

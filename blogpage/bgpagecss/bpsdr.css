@@ -1,0 +1,27 @@
+.bpsidebar{
+    grid-area: sd;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:2px;
+    margin:2px;
+    background-color:slategrey;
+    align-items:center;
+    border-radius:5px;
+}
+.backbutton{
+    font-size:20px;
+    text-decoration:none;
+    float:left;
+}
+.backbutton a{
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    padding: 2px;
+    color:whitesmoke;
+}
+    
+.backbutton a:hover{
+    background-color:darkslategrey;
+}

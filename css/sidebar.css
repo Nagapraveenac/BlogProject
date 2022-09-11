@@ -12,7 +12,7 @@
 .sidebar li{
     float:left;
 }
-.sidebar li a{
+.sidebar a{
     display:block;
     text-decoration:none;
     text-align:center;
@@ -20,6 +20,6 @@
     color:whitesmoke;
 }
     
-.sidebar li a:hover{
+.sidebar a:hover{
     background-color:darkslategrey;
 }

@@ -1,0 +1,61 @@
+@import "bphdr.css";
+@import "bpsdr.css";
+@import "bpcnt.css";
+@import "bpftr.css";
+
+.blogcontainer{
+    display:grid;
+    grid-template-rows:1fr 0.2fr 3fr 0.5fr;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-areas:
+    "hd hd hd"
+    "sd sd sd"
+    "main main main"
+    "ft ft ft";
+    background-color:white;
+    width:100%;
+    height:100%;
+    border:5px solid grey;
+}
+.body{
+    margin:2px;
+    padding:2px;
+}
+
+@media only screen and (max-width:720px){
+    .blogcontainer{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows:0.5fr 0.2fr 5fr 0.5fr;
+        grid-template-areas:
+        "hd"
+        "sd"
+        "main"
+        "ft";
+        background-color:white;
+        width:100%;
+    }
+    /*.bpcontent{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        margin-top:2em;
+    }
+    .bpcard{
+        margin:2em;
+    }*/
+}
+@media(min-width:721px)and (max-width:1046px){
+    .blogcontainer{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:0.8fr 0.2fr 5fr 0.5fr;
+        grid-template-areas:
+        "hd hd hd"
+        "sd sd sd"
+        "main main main"
+        "ft ft ft";
+        background-color: white;
+        width:100%
+    }
+}

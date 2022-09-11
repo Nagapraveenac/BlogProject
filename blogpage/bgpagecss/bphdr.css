@@ -1,8 +1,16 @@
 .bpheader{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
     font: italic 30px Arial, sans-serif;
     color:rgb(207, 123, 139);
     grid-area:hd;
-    flex-direction: column;
     text-align: center;
     background-color:white;
+    border-radius: 30px;
+}
+
+h1{
+    margin:2px;
+    padding:1px;
 }
