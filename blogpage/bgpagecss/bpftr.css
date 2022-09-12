@@ -12,8 +12,10 @@
     align-items: center;
 }
 .fa-facebook{
-    text-decoration: none;    
+    text-decoration: none;
+    color: orange;   
 }
 .fa-twitter{
     text-decoration: none;
+    color: orange;
 }
