@@ -14,10 +14,10 @@ h2{
     margin:0;
     text-decoration:underline;
 }
+
 blockquote{
     color:gray;
 }
-
 
 .card{
     max-width:100%;
@@ -27,6 +27,12 @@ blockquote{
     display:flex;
     flex-direction:column;
     justify-items:space-around;
+}
+
+figcaption{
+    text-align: center;
+    padding: 2px;
+    color:rgb(194, 97, 13);
 }
 
 .responsive{
