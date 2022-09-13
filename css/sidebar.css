@@ -6,7 +6,7 @@
     list-style-type:none;
     margin:0;
     padding:0;
-    background-color: slategrey;
+    background-color: rgb(163, 169, 174);
     border-radius: 5px;
 }
 .sidebar li{
